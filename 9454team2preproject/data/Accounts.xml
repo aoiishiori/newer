@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Accounts>
+  <Account>
+    <accountId>ACC-ADMIN0001</accountId>
+    <username>admin</username>
+    <password>admin123</password>
+    <role>ADMIN</role>
+    <status>APPROVED</status>
+  </Account>
+  <Account>
+    <accountId>ACC-72CF025C</accountId>
+    <username>shiow</username>
+    <password>owo123</password>
+    <role>BUYER</role>
+    <status>APPROVED</status>
+  </Account>
+  <Account>
+    <accountId>ACC-A02BD8FA</accountId>
+    <username>shiow_seller</username>
+    <password>owo123</password>
+    <role>SELLER</role>
+    <status>APPROVED</status>
+  </Account>
+  <Account>
+    <accountId>ACC-7A968717</accountId>
+    <username>kalapastangan</username>
+    <password>123456</password>
+    <role>BUYER</role>
+    <status>APPROVED</status>
+  </Account>
+  <Account>
+    <accountId>ACC-85512DCD</accountId>
+    <username>kalapastangan_seller</username>
+    <password>changeme123</password>
+    <role>SELLER</role>
+    <status>PENDING</status>
+  </Account>
+</Accounts>
