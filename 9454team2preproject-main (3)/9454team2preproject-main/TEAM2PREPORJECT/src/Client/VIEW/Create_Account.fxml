@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Create_Account.fxml -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #f0f2f5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.CONTROLLER.CreateAccController">
+    <center>
+        <VBox alignment="CENTER" maxWidth="500.0" spacing="25.0" style="-fx-background-color: white; -fx-background-radius: 15; -fx-border-radius: 15;" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+            </padding>
+            <effect>
+                <DropShadow blurType="THREE_PASS_BOX" height="30.0" radius="14.5" width="30.0">
+                    <color>
+                        <Color opacity="0.1" />
+                    </color>
+                </DropShadow>
+            </effect>
+            <children>
+                <VBox alignment="CENTER" spacing="5.0">
+                    <children>
+                        <Label text="CREATE ACCOUNT" textAlignment="CENTER">
+                            <font>
+                                <Font name="System Bold" size="30.0" />
+                            </font>
+                        </Label>
+                        <Label text="Join our community today" textFill="#7f8c8d">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+
+                <VBox spacing="15.0">
+                    <children>
+                        <VBox spacing="8.0">
+                            <children>
+                                <Label text="Username">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="regUser" prefHeight="40.0" promptText="Choose a unique username" style="-fx-background-radius: 8; -fx-border-color: #dee2e6; -fx-border-radius: 8; -fx-background-color: white;" />
+                            </children>
+                        </VBox>
+
+                        <VBox spacing="8.0">
+                            <children>
+                                <Label text="Password">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <StackPane alignment="CENTER_LEFT">
+                                    <children>
+                                        <PasswordField fx:id="regPass" prefHeight="40.0" promptText="Enter strong password" style="-fx-background-radius: 8; -fx-border-color: #dee2e6; -fx-border-radius: 8; -fx-background-color: white;" />
+                                        <TextField fx:id="visiblePass" managed="false" visible="false" prefHeight="40.0" style="-fx-background-radius: 8; -fx-border-color: #dee2e6; -fx-border-radius: 8; -fx-background-color: white;" />
+                                    </children>
+                                </StackPane>
+                            </children>
+                        </VBox>
+
+                        <VBox spacing="8.0">
+                            <children>
+                                <Label text="Confirm Password">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <StackPane alignment="CENTER_LEFT">
+                                    <children>
+                                        <PasswordField fx:id="regRePass" prefHeight="40.0" promptText="Repeat your password" style="-fx-background-radius: 8; -fx-border-color: #dee2e6; -fx-border-radius: 8; -fx-background-color: white;" />
+                                        <TextField fx:id="visibleRePass" managed="false" visible="false" prefHeight="40.0" style="-fx-background-radius: 8; -fx-border-color: #dee2e6; -fx-border-radius: 8; -fx-background-color: white;" />
+                                    </children>
+                                </StackPane>
+                            </children>
+                        </VBox>
+
+                        <CheckBox fx:id="showPass" mnemonicParsing="false" onAction="#showPassHandler" text="Show Password" textFill="#7f8c8d">
+                            <font>
+                                <Font name="System Italic" size="12.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets top="5.0" />
+                            </VBox.margin>
+                        </CheckBox>
+                    </children>
+                </VBox>
+
+                <VBox alignment="CENTER" spacing="20.0">
+                    <children>
+                        <Button fx:id="createButton" mnemonicParsing="false" onAction="#createHandler" prefHeight="45.0" prefWidth="400.0" style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-cursor: hand;" text="CREATE ACCOUNT">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product>
+    <productId>PRD-22F323CE</productId>
+    <sellerUsername>shoow_seller</sellerUsername>
+    <name>Canned Goods 150g</name>
+    <category>Canned Goods</category>
+    <originalPrice>45.0</originalPrice>
+    <discountedPrice>42.5</discountedPrice>
+    <availableQuantity>498</availableQuantity>
+    <expiryDate>2027-12-31</expiryDate>
+    <status>AVAILABLE</status>
+  </Product>
+  <Product>
+    <productId>PRD-F26B7BE6</productId>
+    <sellerUsername>dave_seller</sellerUsername>
+    <name>Bread</name>
+    <category>Bread</category>
+    <originalPrice>11.0</originalPrice>
+    <discountedPrice>9.0</discountedPrice>
+    <availableQuantity>14</availableQuantity>
+    <expiryDate>2026-02-21</expiryDate>
+    <status>AVAILABLE</status>
+  </Product>
+  <Product>
+    <productId>PRD-759EF97F</productId>
+    <sellerUsername>kalapastangan_seller</sellerUsername>
+    <name>Chips</name>
+    <category>Snacks</category>
+    <originalPrice>10.0</originalPrice>
+    <discountedPrice>14.0</discountedPrice>
+    <availableQuantity>22</availableQuantity>
+    <expiryDate>dhsdh</expiryDate>
+    <status>AVAILABLE</status>
+  </Product>
+  <Product>
+    <productId>PRD-B2864FD2</productId>
+    <sellerUsername>dave_seller</sellerUsername>
+    <name>Bread 2</name>
+    <category>Bakery</category>
+    <originalPrice>30.0</originalPrice>
+    <discountedPrice>25.0</discountedPrice>
+    <availableQuantity>99</availableQuantity>
+    <expiryDate>2026-02-23</expiryDate>
+    <status>AVAILABLE</status>
+  </Product>
+</Products>
